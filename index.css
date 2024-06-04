@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(média/pexels-prithiviraj-19212126.jpg);
+    background-size: cover;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+}
+.logo{
+    margin: 10px;
+    margin-left: 30px;
+}
+.logo{
+    width: 10%;
+}
+nav ul{
+display: flex;
+list-style-type: none;
+margin-right: 20px;
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color:white ;
+}
+nav ul li a:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+.contenu{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    margin-top: 60px;
+}
+.contenu .gauche{
+    margin-left: 30px;
+}
+.contenu .gauche h1{
+    color: white;
+    font-size: 60px;
+    
+    font-style: italic;
+    font-family: 'Times new roman' Times,Serif;
+}
+.contenu .gauche h3{
+color: white;
+font-size: 60px;
+margin: 0px;
+}
+.contenu .gauche p{
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    word-spacing: 10px;
+}
+.contenu .gauche p span{
+    color: white;
+    font-size: 10px;
+    font-style:italic;
+}  
+.contenu .gauche  p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+.contenu .gauche button{
+    background-color: blue;
+    width: 25%;
+    margin-top: 40px;
+    border: 5px double red; 
+    padding: 10px;
+}
+.contenu .gauche button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contenu .droite img{
+    margin-left: 25%;
+    width: 58%;
+}
+.contenu .droite .img-1{
+    filter: drop-shadow(1px 1px 10px yellow);
+}
+
+
+
+
+/* la partie Tablette */
+
+
+@media screen and (max-width:800px) {
+    nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color:red ;
+    }
+    .contenu .gauche h1{
+        color: white;
+        font-size: 60px;
+        
+        font-style: italic;
+        font-family: 'Times new roman' Times,Serif;
+    }
+    .contenu .gauche h3{
+        color: white;
+        font-size: 60px;
+        margin: 0px;
+        }
+        .contenu .gauche p{
+            font-size: 30px;
+            color: white;
+            margin: 0px;
+            word-spacing: 10px;
+        }
+        .contenu .gauche p span{
+            color: white;
+            font-size: 10px;
+            font-style:italic;
+        }  
+        .contenu .gauche  p::first-letter{
+            color: red;
+            font-size: 50px;
+        }
+        .contenu .gauche button a{
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        .contenu .droite img{
+            margin-left: 25%;
+            width: 58%;
+            margin-top: 120px;
+        }
+}
+
+/*la partie Téléphone*/
+
+@media screen and (max-width:450px) {
+    nav ul li a{
+        text-decoration: none;
+        font-size: 8px;
+        color:red ;
+    }
+    .contenu .gauche h1{
+        color: white;
+        font-size: 15px;
+        
+        font-style: italic;
+        font-family: 'Times new roman' Times,Serif;
+    }
+    .contenu .gauche h3{
+        color: white;
+        font-size: 10px;
+        margin: 10px;
+        }
+        .contenu .gauche p{
+            font-size: 20px;
+            color: white;
+            margin: 0px;
+            word-spacing: 10px;
+        }
+        .contenu .gauche p span{
+            color: white;
+            font-size: 10px;
+            font-style:italic;
+        }  
+        .contenu .gauche  p::first-letter{
+            color: red;
+            font-size: 50px;
+        }
+        .contenu .gauche button a{
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+        }
+        .contenu .droite img{
+            margin-left: 25%;
+            width: 58%;
+            margin-top: 120px;
+        }
+}

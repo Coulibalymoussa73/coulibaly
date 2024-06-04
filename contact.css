@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(média/pexels-prithiviraj-19212126.jpg);
+    background-size: cover;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+}
+.logo{
+    margin: 10px;
+    margin-left: 30px;
+}
+.logo{
+    width: 10%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    }
+    nav ul li{
+        margin-right: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 30px;
+        color:white ;
+    }
+    nav ul li a:hover{
+        color:black;
+        border-bottom: 3px solid black;
+    }
+    .grids{
+        margin: 0 auto;
+        margin-top: 100px;
+        justify-content: center;
+        width: 80%;
+        display:grid ;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr ;
+        
+    }
+    .grids .grid1{
+        background-color:rgb(44, 41, 41);
+        color: white;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .grids .grid2{
+        background-color: gray;
+    color: black;
+    text-align: center;
+}
+.grids .grid2  input{
+width: 80%;
+border-radius: 20px;
+font-size: 20px;
+color: gray;
+padding: 10px;
+margin-bottom: 10px;
+}
+.grids .grid2 textarea{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.grids .grid2 button{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.grids .grid1 i{
+    background-color: blue;
+    font-size: 30px;
+}
+.grids .grid1 img{
+margin: 15px; 
+font-size:0px;
+margin: center;
+margin-left: 40px; 
+margin-right: 15px;
+text-align: center;
+}
+
+
+
+/* la partie Tablette */
+
+
+@media screen and (max-width:800px) {
+    nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color:red;
+    }
+    .grids{
+        margin: 0 auto;
+        margin-top: 100px;
+        justify-content: center;
+        width: 80%;
+        display:grid ;
+        grid-template-columns: 1fr ;
+        
+    }
+    .grids .grid1{
+        background-color:rgb(44, 41, 41);
+        color: white;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .grids .grid2{
+        background-color: gray;
+    color: black;
+    text-align: center;
+}
+.grids .grid2  input{
+width: 80%;
+border-radius: 20px;
+font-size: 20px;
+color: gray;
+padding: 10px;
+margin-bottom: 10px;
+}
+.grids .grid2 textarea{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.grids .grid2 button{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.grids .grid1 i{
+    background-color: blue;
+    font-size: 30px;
+}
+.grids .grid1 img{
+margin: 15px; 
+font-size:0px;
+margin: center;
+margin-left: 40px; 
+margin-right: 15px;
+text-align: center;
+}
+}
+
+
+/*la partie Téléphone*/
+
+@media screen and (max-width:800px) {
+    nav ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color:red;
+    }
+    .grids{
+        margin: 0 auto;
+        margin-top: 100px;
+        justify-content: center;
+        width: 80%;
+        display:grid ;
+        grid-template-columns: 1fr ;
+        
+    }
+    .grids .grid1{
+        background-color:rgb(44, 41, 41);
+        color: white;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .grids .grid2{
+        background-color: gray;
+    color: black;
+    text-align: center;
+}
+.grids .grid2  input{
+width: 80%;
+border-radius: 20px;
+font-size: 20px;
+color: gray;
+padding: 10px;
+margin-bottom: 10px;
+}
+.grids .grid2 textarea{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.grids .grid2 button{
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.grids .grid1 i{
+    background-color: blue;
+    font-size: 30px;
+}
+.grids .grid1 img{
+margin: 15px; 
+font-size:0px;
+margin: center;
+margin-left: 40px; 
+margin-right: 15px;
+text-align: center;
+}
+}

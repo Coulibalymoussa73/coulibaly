@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(média/pexels-prithiviraj-19212126.jpg);
+    background-size: cover;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+}
+.logo{
+    margin: 10px;
+    margin-left: 30px;
+}
+.logo{
+    width: 10%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    }
+    nav ul li{
+        margin-right: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 30px;
+        color:white ;
+    }
+    nav ul li a:hover{
+        color:black;
+        border-bottom: 3px solid black;
+    }
+    .contenu{
+        justify-content: center;
+    
+    }
+    .contenu h1{ 
+        font-size: 100px;
+        margin-top: 70px;
+        text-align: center;
+        color: wheat;
+        margin-bottom: 0px;
+    }
+    .contenu h3{
+        font-size: 40px;
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+    }
+    .contenu .grids{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+       
+    }
+    .contenu .grid{
+        width: 350px;
+        height: 350px;
+        background-color: red;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .contenu .grid .cercle{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 50%;
+        border-width: 2px; 
+        border-style: solid;
+        border-color: white;
+
+    }
+    .contenu .grids .grid h1{
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: center;
+
+    }
+    .contenu .grids .grid p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .contenu .grids .grid .cercle i{
+     font-size: 70px;
+     margin: 50px;
+     color: white;
+     margin-left: 25px;
+     margin-top: 25px;
+
+    }
+
+
+
+
+    /* la partie Tablette */
+
+
+@media screen and (max-width:800px) {
+    nav ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        color:red ;
+    }
+    .contenu h1{ 
+        font-size: 30px;
+        margin-top: 70px;
+        text-align: center;
+        color: wheat;
+        margin-bottom: 0px;
+    }
+    .contenu h3{
+        font-size: 20px;
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+    }
+    .contenu .grids .grid h1{
+        font-size:20px;
+        margin-top: 5px;
+        text-align: center;
+
+    }
+    .contenu .grids .grid p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .contenu .grids .grid .cercle i{
+     font-size: 70px;
+     margin: 50px;
+     color: white;
+     margin-left: 25px;
+     margin-top: 25px;
+
+    }
+    .contenu .grids{
+        grid-template-columns: 1fr  ;
+    }
+    .contenu .grid{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+}
+
+
+/*la partie Téléphone*/
+
+@media screen and (max-width:450px) {
+    nav ul li a{
+        text-decoration: none;
+        font-size: 8px;
+        color:red ;
+    }
+    .contenu h1{ 
+        font-size: 50px;
+        margin-top: 70px;
+        text-align: center;
+        color: wheat;
+        margin-bottom: 0px;
+    }
+    .contenu h3{
+        font-size: 40px;
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+    }
+    .contenu .grids .grid h1{
+        font-size:20px;
+        margin-top: 5px;
+        text-align: center;
+
+    }
+    .contenu .grids .grid p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .contenu .grids .grid .cercle i{
+     font-size: 70px;
+     margin: 50px;
+     color: white;
+     margin-left: 25px;
+     margin-top: 25px;
+
+    }
+    .contenu .grids{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .contenu .grid{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+}
